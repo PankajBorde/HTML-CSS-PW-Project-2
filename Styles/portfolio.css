@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins';
+}
+body{
+	background-color: whitesmoke;
+	padding: 30px 50px;
+}
+header{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px 30px;
+	align-items: center;
+}
+header img{
+	height: 40px;
+	cursor: pointer;
+}
+header nav{
+	width: max-content;
+	justify-self: center;  
+
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: whitesmoke;
+}
+header button{
+	justify-self: end;
+	width: max-content;
+}
+/* .btn class for both button Contact-Us & See Our Services */
+.btn{
+	padding: 10px 20px;
+	color: whitesmoke;
+	background-color: rgb(89, 85, 179);
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: whitesmoke;
+	border-radius: 15px;
+	border: none;
+	box-shadow: 3px 3px 6px #1c1c1c;
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: #1c1c1c;
+	padding: 0px 10px;
+}
+/* hover effect on navigation link */
+nav a:hover{
+	border-bottom: 2px solid rgb(89, 85, 179);
+	box-shadow: 0px 2px 2px rgb(89, 85, 179);;
+}
+/* active section of navigation link */
+#portfolio{
+	border-bottom: 2px solid rgb(89, 85, 179);
+	box-shadow: 0px 2px 2px rgb(89, 85, 179);;
+}
+/* hover effect on both button */
+.btn:hover{
+	transform: scale(1.05);
+	transition: transform 0.5s linear;
+}
+
+
+
